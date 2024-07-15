@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'OdinFont';
+	src: url('fonts/Norse-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+.image {
+	width: 35vw;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
+}
+
+.right-side {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35vw;
+	height: 65vh;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20%;
+	background-color: #0000007d;
+}
+
+.logo {
+	height: 60px;
+	width: 55px;
+}
+
+h1 {
+	font-family: 'OdinFont';
+	color: white;
+	font-size: 5rem;
+}
