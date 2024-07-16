@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
@@ -54,27 +55,73 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	width: 65vw;
-	margin: 100px 40px 0 40px;
+	margin: 130px 0 0 0;
 }
 
 p {
-	margin-bottom: 20px;
-	font-size: 1.1rem;
+	margin: 0 100px 30px 40px;
+	font-size: 1.15rem;
 	font-weight: bold;
 }
 
-form {
+h3 {
+	padding-bottom: 30px;
 }
 
 .inputs {
 	background-color: white;
 	margin: 20px 0 30px 0;
+	padding: 20px 40px 20px 40px;
+	width: 65vw;
+	height: 35vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 10px 5px 5px lightgrey;
 }
 
-ul, li {
-	list-style: none;
+.both {
+	display: flex;
+	gap: 70px;
+}
+
+.form {
+	/* outline: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+	font-size: 0.7rem;
+}
+
+input {
+	height: 25px;
+	margin-bottom: 15px;
+	border: 1px solid #E5E7EB;
+	border-radius: 5px;
+}
+
+input:focus {
+	border: 1px solid blue;
+	box-shadow: 2px 2px 2px #E5E7EB;
+}
+
+#password:invalid {
+	border: 1px solid red;
 }
 
 button {
-	margin-bottom: 20px;
+	margin: 0 0 20px 40px;
+	height: 40px;
+	width: 170px;
+	color: white;
+	background-color: #596D48;
+	border: none;
+	border-radius: 5px;
+}
+
+.bottom-question {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.log-in {
+	color: #596D48;
 }
