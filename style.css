@@ -99,11 +99,16 @@ input {
 }
 
 input:focus {
+	outline: 0;
 	border: 1px solid blue;
 	box-shadow: 2px 2px 2px #E5E7EB;
 }
 
 #password:invalid {
+	border: 1px solid red;
+}
+
+#confirm-pasword:invalid {
 	border: 1px solid red;
 }
 
